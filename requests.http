@@ -1,0 +1,18 @@
+###LIST ALL MESSAGES
+
+GET http://localhost:3001/messages
+
+### CREATE NEW MESSAGE
+
+POST http://localhost:3001/messages 
+content-Type: application/json
+
+{
+  "content": "Harsh Rana is great again"
+}
+
+
+###GET A PARTICULAR MESSAGE
+
+GET http://localhost:3001/messages/362
+ 
